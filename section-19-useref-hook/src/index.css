@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+}
+
+.useref-demo {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.useref-demo h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 16px 20px;
+  margin-bottom: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.card h2 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+.card p {
+  margin: 6px 0;
+}
+
+button {
+  padding: 8px 14px;
+  margin-right: 8px;
+  font-size: 14px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #4caf50;
+  color: white;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+input {
+  padding: 8px 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-left: 8px;
+  transition: background-color 0.2s;
+}
+
+.color-box {
+  margin-top: 12px;
+  padding: 30px;
+  text-align: center;
+  font-weight: bold;
+  background-color: #ddd;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.hint {
+  background-color: #fffae6;
+  border-left: 4px solid #ffd33d;
+  padding: 10px 14px;
+  font-size: 14px;
+  border-radius: 4px;
+}

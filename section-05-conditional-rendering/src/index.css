@@ -1,0 +1,23 @@
+.welcome-message {
+  color: black;
+  font-size: 2.5 em;
+  background-color: hsl(120, 100%, 25%);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  text-align: center;
+}
+
+
+
+
+.login-message {
+  color: black;
+  font-size: 2.5 em;
+  background-color: hsl(329, 100%, 56%);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  text-align: center;
+}
+

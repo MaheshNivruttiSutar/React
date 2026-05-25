@@ -1,0 +1,178 @@
+:root {
+    --primary: #b81717;
+}
+
+body {
+    background-color: #3d4f6f;
+    color: white;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* NavLink Component Properties: */
+header nav {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 5px;
+    gap: 12px;
+}
+
+header nav h1 {
+    font-size: 1.5rem;
+    margin-right: auto;
+    border-bottom: 2px solid #b72a2a;
+}
+
+
+header nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+header nav a.active {
+    background-color: #b81717;
+}
+
+/* Page content */
+main {
+    max-width: 1200px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px;
+}
+
+/* help layout */
+.help-layout nav {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 30px 0;
+}
+
+.help-layout nav a {
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 4px;
+    text-decoration: none;
+}
+
+.help-layout nav a:hover {
+    border-color: var(--primary);
+}
+
+.help-layout nav a.active {
+    background: var(--primary);
+}
+
+/* faq */
+.faq {
+    margin: 30px 0;
+}
+
+.faq h3 {
+    margin-bottom: 20px;
+}
+
+.faq .question {
+    margin-bottom: 20px;
+}
+
+
+/* contact form*/
+.contact {
+    margin: 30px 0;
+}
+
+.contact label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact input,
+.contact textarea {
+    width: auto;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.contact button {
+    background-color: #007bff;
+    color: white;
+    padding: 6px 12px;
+    border: none;
+}
+
+/* careers list */
+.careers > a {
+    display: block;
+    background: rgba(0,0,0,0.2);
+    padding: 20px;
+    border-radius: 4px;
+    margin: 20px 0;
+    text-decoration: none;
+}
+
+.careers > a:hover p {
+    color: var(--primary);
+}
+
+.careers p {
+    margin: 0;
+}
+
+.careers > a p:last-child {
+    font-size: 0.8em;
+    color: #bbb;
+}
+
+/* career details */
+.career-details {
+    margin: 30px 0;
+    padding: auto;
+    border-radius: 4px;
+    background: rgba(0,0,0,0.2);
+    padding: 20px;
+}
+
+.career-details h2 {
+    margin-bottom: 20px;
+}
+
+.career-details p {
+    margin-bottom: 10px;
+}
+
+/* breadcrumbs */
+.breadcrumbs {
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.breadcrumbs > * {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.breadcrumbs .crumb:after {
+    content: '>';
+    margin-left: 10px;
+}
+
+.breadcrumbs .crumb:last-child:after {
+    display: none;
+}
+
+.breadcrumbs .crumb a {
+    color: #ddd;
+}
+

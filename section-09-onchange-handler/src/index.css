@@ -1,0 +1,99 @@
+/* ---------- Base / Layout ---------- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background: linear-gradient(135deg, #f0f4ff 0%, #e6ecff 100%);
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 40px 16px;
+}
+
+#root {
+    width: 100%;
+    max-width: 480px;
+}
+
+/* ---------- Card container ---------- */
+#root > div {
+    background: #ffffff;
+    padding: 28px 32px;
+    border-radius: 14px;
+    box-shadow: 0 10px 30px rgba(31, 41, 55, 0.08);
+    border: 1px solid #e5e7eb;
+}
+
+/* ---------- Form controls ---------- */
+input[type="text"],
+input[type="number"],
+textarea,
+select {
+    width: 100%;
+    padding: 10px 12px;
+    margin-top: 4px;
+    font-size: 15px;
+    color: #111827;
+    background: #f9fafb;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s, background 0.2s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #6366f1;
+    background: #ffffff;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.18);
+}
+
+textarea {
+    min-height: 90px;
+    resize: vertical;
+    font-family: inherit;
+}
+
+select {
+    cursor: pointer;
+    appearance: none;
+    background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3e%3cpath fill='%236b7280' d='M6 8L0 0h12z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right 14px center;
+    padding-right: 36px;
+}
+
+/* ---------- Radio buttons ---------- */
+label {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 6px 12px 6px 0;
+    font-size: 15px;
+    cursor: pointer;
+    user-select: none;
+}
+
+input[type="radio"] {
+    width: 16px;
+    height: 16px;
+    accent-color: #6366f1;
+    cursor: pointer;
+}
+
+/* ---------- Output paragraphs ---------- */
+p {
+    margin: 8px 0 18px;
+    padding: 8px 12px;
+    background: #f3f4f6;
+    border-left: 3px solid #6366f1;
+    border-radius: 6px;
+    font-size: 14px;
+    color: #374151;
+}

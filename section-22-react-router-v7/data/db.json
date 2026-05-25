@@ -1,0 +1,64 @@
+{
+  "careers": [
+    {
+      "id": 1,
+      "title": "Senior React Developer",
+      "salary": 50000,
+      "location": "London, UK"
+    },
+    {
+      "id": 2,
+      "title": "Plumber",
+      "salary": 40000,
+      "location": "Bowser's Castle"
+    },
+    {
+      "id": 3,
+      "title": "Gym Leader",
+      "salary": 75000,
+      "location": "Kanto Region"
+    },
+    {
+      "id": 4,
+      "title": "Vue Developer",
+      "salary": 40000,
+      "location": "Manchester, UK"
+    },
+    {
+      "id": 5,
+      "title": "Ninja",
+      "salary": 60000,
+      "location": "Hidden Leaf Village"
+    },
+    {
+      "id": 6,
+      "title": "Full Stack Developer",
+      "salary": 65000,
+      "location": "Berlin, Germany"
+    },
+    {
+      "id": 7,
+      "title": "Angular Developer",
+      "salary": 45000,
+      "location": "Dublin, Ireland"
+    },
+    {
+      "id": 8,
+      "title": "Node.js Engineer",
+      "salary": 55000,
+      "location": "Amsterdam, Netherlands"
+    },
+    {
+      "id": 9,
+      "title": "Python Developer",
+      "salary": 58000,
+      "location": "Toronto, Canada"
+    },
+    {
+      "id": 10,
+      "title": "DevOps Engineer",
+      "salary": 70000,
+      "location": "San Francisco, USA"
+    }
+  ]
+}
