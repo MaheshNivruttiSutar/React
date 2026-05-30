@@ -1,0 +1,40 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Samsung M 40",
+      "color": "black",
+      "price": 15000,
+      "category": "mobile",
+      "brand": "Samsung",
+      "photo": "https://www.shutterstock.com/image-photo/bogor-indonesia-february-15-2022-260nw-2123870885.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Samsung F20",
+      "color": "white",
+      "price": 50000,
+      "category": "Mobile",
+      "brand": "Samsung",
+      "photo": "https://www.shutterstock.com/image-photo/bogor-indonesia-february-15-2022-260nw-2123870885.jpg"
+    },
+    {
+      "id": 3,
+      "name": "T-shirt",
+      "color": "red",
+      "price": 5000,
+      "category": "cloths",
+      "brand": "Nike",
+      "photo": "https://www.shutterstock.com/image-photo/bogor-indonesia-february-15-2022-260nw-2123870885.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Sports Shoes",
+      "color": "red and black",
+      "price": 8000,
+      "category": "rebook",
+      "brand": "Nike",
+      "photo": "https://www.shutterstock.com/image-photo/bogor-indonesia-february-15-2022-260nw-2123870885.jpg"
+    }
+  ]
+}
