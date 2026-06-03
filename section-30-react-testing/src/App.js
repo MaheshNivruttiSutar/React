@@ -4,7 +4,7 @@
 // ============================================
 
 // 1. Introduction of React Testing
-// export { default } from './1-introduction/App';
+export { default } from './1-introduction/App';
 
 // 2. Run First Test Case
 // export { default } from './2-run-first-test-case/App';
@@ -66,8 +66,8 @@
 // 22. getAllByLabelText
 // export { default } from './22-getAllByLabelText/App';
 
-// 23. getByPlaceholderText | getAllByPlaceholderText
-// export { default } from './23-getByPlaceholderText-getAllByPlaceholderText/App';
+// 23. getByTitle | getAllByTitle
+// export { default } from './23-getByAltText-getAllByAltText/App';
 
 // 24. getByText | getAllByText
 // export { default } from './24-getByText-getAllByText/App';
@@ -82,7 +82,7 @@
 // export { default } from './27-getByDisplayValue-getAllByDisplayValue/App';
 
 // 28. getByTitle | getAllByTitle
-export { default } from './28-getByTitle-getAllByTitle/App';
+// export { default } from './28-getByTitle-getAllByTitle/App';
 
 // 30. getByAltText | getAllByAltText
 // export { default } from './30-getByAltText-getAllByAltText/App';
