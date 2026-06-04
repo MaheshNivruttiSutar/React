@@ -69,8 +69,8 @@ export { default } from './19-multiple-elements-with-role-custom-role/App';
 // 22. getAllByLabelText
 // export { default } from './22-getAllByLabelText/App';
 
-// 23. getByTitle | getAllByTitle
-// export { default } from './23-getByAltText-getAllByAltText/App';
+// 23. getByPlaceholderText | getAllByPlaceholderText
+// export { default } from './23-getByPlaceholderText-getAllByPlaceholderText/App';
 
 // 24. getByText | getAllByText
 // export { default } from './24-getByText-getAllByText/App';
@@ -87,53 +87,50 @@ export { default } from './19-multiple-elements-with-role-custom-role/App';
 // 28. getByTitle | getAllByTitle
 // export { default } from './28-getByTitle-getAllByTitle/App';
 
+// 29. getByAltText | getAllByAltText
+// export { default } from './29-getByAltText-getAllByAltText/App';
+
 // 30. RTL Query Priority Order
 // export { default } from './30-rtl-query-priority-order/App';
 
-// 30b. getByAltText | getAllByAltText
-// export { default } from './30-getByAltText-getAllByAltText/App';
+// 31. Assertion Methods
+// export { default } from './31-assertion-methods/App';
 
-// 31. RTL Query Priority Order (legacy folder name)
-// export { default } from './31-rtl-query-priority-order/App';
+// 32. Text Match with String and Regex
+// export { default } from './32-text-match-string-regex/App';
 
-// 32. Assertion Methods
-// export { default } from './32-assertion-methods/App';
+// 33. Text Match with Function
+// export { default } from './33-text-match-function/App';
 
-// 33. Text Match with String and Regex
-// export { default } from './33-text-match-string-regex/App';
+// 34. queryBy | queryAllBy | Hidden Elements
+// export { default } from './34-queryBy-queryAllBy-hidden-elements/App';
 
-// 34. Text Match with Function
-// export { default } from './34-text-match-function/App';
+// 35. findBy | findAllBy | Async Elements
+// export { default } from './35-findBy-findAllBy-async/App';
 
-// 35. queryBy | queryAllBy | Hidden Elements
-// export { default } from './35-queryBy-queryAllBy-hidden-elements/App';
+// 36. Custom Query | JavaScript Query
+// export { default } from './36-custom-query-javascript/App';
 
-// 36. findBy | findAllBy | Async Elements
-// export { default } from './36-findBy-findAllBy-async/App';
+// 37. Querying Within Elements
+// export { default } from './37-querying-within-elements/App';
 
-// 37. Custom Query | JavaScript Query
-// export { default } from './37-custom-query-javascript/App';
+// 38. Click Event with User Event
+// export { default } from './38-click-event-user-event/App';
 
-// 38. Querying Within Elements
-// export { default } from './38-querying-within-elements/App';
+// 39. onChange Event | Keyboard Interactions
+// export { default } from './39-onChange-keyboard-interactions/App';
 
-// 39. Click Event with User Event
-// export { default } from './39-click-event-user-event/App';
+// 40. act Function
+// export { default } from './40-act-function/App';
 
-// 40. onChange Event | Keyboard Interactions
-// export { default } from './40-onChange-keyboard-interactions/App';
+// 41. Test Component Props
+// export { default } from './41-test-component-props/App';
 
-// 41. act Function
-// export { default } from './41-act-function/App';
+// 42. Functional Props Testing | Function Mocking
+// export { default } from './42-functional-props-mocking/App';
 
-// 42. Test Component Props
-// export { default } from './42-test-component-props/App';
-
-// 43. Functional Props Testing | Function Mocking
-// export { default } from './43-functional-props-mocking/App';
-
-// 44. Debugging in React Testing Library
-// export { default } from './44-debugging-rtl/App';
+// 43. Debugging in React Testing Library
+// export { default } from './43-debugging-rtl/App';
 
 // 44. Testing Playground Chrome Extension
 // export { default } from './44-testing-playground-extension/App';
