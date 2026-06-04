@@ -52,10 +52,13 @@
 // export { default } from './16-functional-component-method-testing/App';
 
 // 17. RTL Query
-export { default } from './17-rtl-query/App';
+// export { default } from './17-rtl-query/App';
 
 // 18. getByRole Query
 // export { default } from './18-getByRole-query/App';
+
+// 19. Multiple elements with Role | Custom Role
+export { default } from './19-multiple-elements-with-role-custom-role/App';
 
 // 20. getAllByRole
 // export { default } from './20-getAllByRole/App';

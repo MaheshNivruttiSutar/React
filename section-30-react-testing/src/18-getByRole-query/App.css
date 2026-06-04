@@ -1,0 +1,47 @@
+.App {
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.App h2 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.App form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.App input {
+  padding: 0.35rem 0.5rem;
+}
+
+.App button {
+  margin-top: 0.25rem;
+  padding: 0.4rem 0.6rem;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.App table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 1rem;
+}
+
+.App th,
+.App td {
+  border: 1px solid #ccc;
+  padding: 0.4rem;
+  text-align: left;
+}
+
+.App__note {
+  font-size: 0.85rem;
+  color: #666;
+  font-style: italic;
+}

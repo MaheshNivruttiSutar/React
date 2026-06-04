@@ -1,0 +1,38 @@
+.App {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.App__subtitle {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.App section {
+  margin-bottom: 1.5rem;
+}
+
+.App h2 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.App label {
+  display: block;
+  margin-top: 0.5rem;
+}
+
+.App input[type='text'] {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.35rem 0.5rem;
+  margin-top: 0.15rem;
+}
+
+.App__checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}

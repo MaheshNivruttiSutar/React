@@ -1,0 +1,35 @@
+.App {
+  max-width: 380px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.App__subtitle {
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.App form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.App input[type='email'],
+.App input[type='tel'] {
+  padding: 0.35rem 0.5rem;
+}
+
+.App__checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 0.25rem;
+}
+
+.App button {
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+  width: fit-content;
+}
