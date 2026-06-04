@@ -1,8 +1,10 @@
+import './App.css';
+
 function App() {
   return (
-    <div>
-      <h1>5 - Write First React Test</h1>
-      <p>Add your lesson code here.</p>
+    <div className="App">
+      <p>First React test CASE </p>
+      <img src="https://img.freepik.com/premium-photo/beautiful-girl-with-multicolored-hair_1048944-29857649.jpg" />
     </div>
   );
 }

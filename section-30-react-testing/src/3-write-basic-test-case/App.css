@@ -1,0 +1,74 @@
+.mission-app {
+  min-height: 100vh;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  color: #f0f4ff;
+  background: radial-gradient(ellipse at top, #3d1f2e 0%, #0d0f1a 45%, #050608 100%);
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+.mission-app__title {
+  margin: 0 0 2rem;
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  color: #ffb347;
+  text-transform: uppercase;
+}
+
+.mission-card {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 1.75rem 1.5rem;
+  text-align: left;
+  border: 1px solid rgba(255, 120, 80, 0.35);
+  border-radius: 16px;
+  background: linear-gradient(145deg, rgba(40, 24, 32, 0.9), rgba(18, 14, 28, 0.95));
+  box-shadow:
+    0 0 40px rgba(255, 90, 50, 0.12),
+    0 12px 32px rgba(0, 0, 0, 0.45);
+}
+
+.mission-card__planet {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ff6b4a;
+}
+
+.mission-card__commander,
+.mission-card__sol {
+  margin: 0 0 0.65rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #c8d0e8;
+}
+
+.mission-card__sol {
+  margin-bottom: 1.25rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.mission-status {
+  display: inline-block;
+  padding: 0.45rem 0.85rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  border-radius: 999px;
+}
+
+.mission-status--nominal {
+  color: #0f2918;
+  background: linear-gradient(135deg, #6ee7a0, #34d399);
+}
+
+.mission-status--caution {
+  color: #2a1f08;
+  background: linear-gradient(135deg, #fcd34d, #f59e0b);
+}
+
+.mission-status--critical {
+  color: #fff;
+  background: linear-gradient(135deg, #f87171, #dc2626);
+}

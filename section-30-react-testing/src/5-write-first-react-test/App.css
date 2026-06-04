@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.App img {
+  max-width: 280px;
+  height: auto;
+  border-radius: 8px;
+}

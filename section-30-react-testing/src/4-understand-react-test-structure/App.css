@@ -1,0 +1,73 @@
+.library-app {
+  min-height: 100vh;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  color: #2c2416;
+  background: linear-gradient(160deg, #f5e6d3 0%, #e8d4b8 40%, #d4b896 100%);
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.library-app__title {
+  margin: 0 0 2rem;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  color: #5c4033;
+}
+
+.book-card {
+  max-width: 440px;
+  margin: 0 auto;
+  padding: 1.75rem 1.5rem;
+  text-align: left;
+  border-radius: 12px;
+  border: 1px solid #c4a574;
+  background: #fffaf0;
+  box-shadow:
+    0 4px 0 #8b6914,
+    0 16px 40px rgba(92, 64, 51, 0.2);
+}
+
+.book-card__title {
+  margin: 0 0 0.5rem;
+  font-size: 1.35rem;
+  line-height: 1.35;
+  color: #3d2914;
+}
+
+.book-card__author {
+  margin: 0 0 1rem;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: #6b5344;
+}
+
+.book-card__progress {
+  margin: 0 0 1.25rem;
+  font-family: system-ui, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #8b5a2b;
+}
+
+.book-badge {
+  display: inline-block;
+  padding: 0.4rem 0.9rem;
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: 6px;
+}
+
+.book-badge--reading {
+  color: #1e3a5f;
+  background: #bfdbfe;
+}
+
+.book-badge--done {
+  color: #14532d;
+  background: #86efac;
+}

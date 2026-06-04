@@ -4,7 +4,7 @@
 // ============================================
 
 // 1. Introduction of React Testing
-export { default } from './1-introduction/App';
+// export { default } from './1-introduction/App';
 
 // 2. Run First Test Case
 // export { default } from './2-run-first-test-case/App';
@@ -19,7 +19,7 @@ export { default } from './1-introduction/App';
 // export { default } from './5-write-first-react-test/App';
 
 // 6. Test Input Box
-// export { default } from './6-test-input-box/App';
+export { default } from './6-test-input-box/App';
 
 // 7. Test Case Run Options
 // export { default } from './7-test-case-run-options/App';
