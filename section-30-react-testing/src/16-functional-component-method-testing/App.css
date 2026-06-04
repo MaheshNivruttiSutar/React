@@ -1,0 +1,40 @@
+.App {
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: left;
+}
+
+.App__hint {
+  font-size: 0.9rem;
+  color: #555;
+  margin-bottom: 1rem;
+}
+
+.App label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.App input {
+  width: 100%;
+  padding: 0.35rem 0.5rem;
+  margin-bottom: 0.5rem;
+  box-sizing: border-box;
+}
+
+.App button {
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+  margin-bottom: 0.75rem;
+}
+
+.App__error {
+  color: #c00;
+  font-size: 0.9rem;
+}
+
+.App ul {
+  padding-left: 1.25rem;
+  margin: 0;
+}

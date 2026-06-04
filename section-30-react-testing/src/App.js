@@ -52,7 +52,7 @@
 // export { default } from './16-functional-component-method-testing/App';
 
 // 17. RTL Query
-// export { default } from './17-rtl-query/App';
+export { default } from './17-rtl-query/App';
 
 // 18. getByRole Query
 // export { default } from './18-getByRole-query/App';

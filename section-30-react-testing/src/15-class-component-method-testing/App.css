@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  padding: 1rem;
+}
+
+.App button {
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+}
