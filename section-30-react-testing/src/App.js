@@ -87,10 +87,13 @@ export { default } from './19-multiple-elements-with-role-custom-role/App';
 // 28. getByTitle | getAllByTitle
 // export { default } from './28-getByTitle-getAllByTitle/App';
 
-// 30. getByAltText | getAllByAltText
+// 30. RTL Query Priority Order
+// export { default } from './30-rtl-query-priority-order/App';
+
+// 30b. getByAltText | getAllByAltText
 // export { default } from './30-getByAltText-getAllByAltText/App';
 
-// 31. RTL Query Priority Order
+// 31. RTL Query Priority Order (legacy folder name)
 // export { default } from './31-rtl-query-priority-order/App';
 
 // 32. Assertion Methods
