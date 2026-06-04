@@ -1,0 +1,43 @@
+.App {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.App section {
+  margin-bottom: 1.25rem;
+  text-align: left;
+}
+
+.App h2 {
+  font-size: 1rem;
+  margin-bottom: 0.35rem;
+}
+
+.App ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}
+
+.App form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  text-align: left;
+}
+
+.App input {
+  padding: 0.35rem 0.5rem;
+}
+
+.App button {
+  margin-top: 0.25rem;
+  padding: 0.4rem;
+  cursor: pointer;
+}
+
+.App__message {
+  margin-top: 0.75rem;
+  color: #c00;
+  font-weight: 500;
+}

@@ -1,0 +1,13 @@
+.App {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.App button {
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+}
+
+.App__count {
+  margin-top: 0.75rem;
+}

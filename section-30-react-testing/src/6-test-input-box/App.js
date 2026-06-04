@@ -19,7 +19,7 @@ function App() {
     <p>Test Input Box: Write Test case function.</p>
     <p title="textbox">Mahesh Sutar</p>
     <label htmlFor="name">Name: </label>
-    <input type="text" placeholder="Enter your name" id="name" defaultValue="Mahesh Sutar" />
+    <input type="text" placeholder="Enter your name" id="name" defaultValue="Mahesh Sutar" name="name" />
     <img src="https://img.freepik.com/premium-photo/beautiful-girl-with-multicolored-hair_1048944-29857649.jpg" alt="Portrait" />
   </div>
   );

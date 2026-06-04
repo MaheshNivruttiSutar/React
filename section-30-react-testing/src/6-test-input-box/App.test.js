@@ -27,3 +27,8 @@ test('renders input box with value', () => {
   expect(screen.getByText('Mahesh Sutar')).toBeInTheDocument();
   expect(screen.getByTitle('textbox')).toHaveTextContent('Mahesh Sutar');
 });
+
+test('renders input box with name', () => {
+  render(<App />);
+  expect(screen.getByRole('textbox')).toHaveAttribute('name', 'name');
+});

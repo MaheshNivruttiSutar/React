@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+  padding: 1rem;
+}
+
+.App__message {
+  margin: 0.75rem 0;
+}
+
+.App button {
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+}

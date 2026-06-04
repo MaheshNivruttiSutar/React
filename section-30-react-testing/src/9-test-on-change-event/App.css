@@ -1,0 +1,12 @@
+.App {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.App input {
+  padding: 0.35rem 0.5rem;
+}
+
+.App__display {
+  margin-top: 0.75rem;
+}

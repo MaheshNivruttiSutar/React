@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  padding: 1rem;
+}
+
+.App label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.App input {
+  margin-bottom: 0.75rem;
+  padding: 0.35rem 0.5rem;
+}
+
+.button {
+    margin-top: 1rem;
+    padding: 0.35rem 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #f0f0f0;
+    color: #333;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-left: 1rem;
+}

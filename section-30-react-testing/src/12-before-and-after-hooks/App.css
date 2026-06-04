@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+  padding: 1rem;
+}
+
+.App__hooks {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0;
+  text-align: left;
+  max-width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.App__hooks li {
+  margin-bottom: 0.35rem;
+  padding: 0.35rem;
+  background: #f5f5f5;
+  border-radius: 4px;
+  font-size: 0.9rem;
+}
+
+.App button {
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+}
