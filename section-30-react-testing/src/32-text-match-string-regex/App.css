@@ -1,0 +1,15 @@
+.App {
+  max-width: 380px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.App p {
+  margin: 0.35rem 0;
+}
+
+.App button {
+  margin-top: 0.75rem;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+}

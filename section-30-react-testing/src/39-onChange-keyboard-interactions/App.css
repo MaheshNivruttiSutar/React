@@ -1,0 +1,17 @@
+.App {
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.App label {
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.App input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.35rem 0.5rem;
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,22 @@
+.App {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.SavePanel {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.SavePanel h2 {
+  margin: 0 0 0.5rem;
+  font-size: 1rem;
+}
+
+.SavePanel button {
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+}

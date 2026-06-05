@@ -1,0 +1,47 @@
+.App {
+  max-width: 380px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.App__order-id {
+  font-weight: 600;
+}
+
+.App__status {
+  color: #0a6b0a;
+  margin: 0.5rem 0 1rem;
+}
+
+.App__checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 0.75rem;
+}
+
+.App input[type='text'] {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.35rem 0.5rem;
+  margin: 0.25rem 0 0.75rem;
+}
+
+.App__track-btn,
+.App__cancel-btn {
+  display: block;
+  margin-bottom: 0.5rem;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+}
+
+.App__cancel-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.App__alert {
+  margin-top: 0.75rem;
+  color: #055160;
+}

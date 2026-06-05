@@ -1,0 +1,19 @@
+.App {
+  max-width: 380px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.App p {
+  margin: 0.35rem 0;
+}
+
+.App__badge {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.15rem 0.45rem;
+  background: #d32f2f;
+  color: #fff;
+  font-size: 0.75rem;
+  border-radius: 3px;
+}

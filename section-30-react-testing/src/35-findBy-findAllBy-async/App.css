@@ -1,0 +1,10 @@
+.App {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.App ul {
+  padding-left: 1.25rem;
+  margin-top: 0.75rem;
+}

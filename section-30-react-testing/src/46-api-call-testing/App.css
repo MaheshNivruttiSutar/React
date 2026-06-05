@@ -1,0 +1,28 @@
+.App {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.App__quote {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  border-left: 3px solid #555;
+  font-style: italic;
+}
+
+.App__author {
+  margin-top: 0.5rem;
+  font-style: normal;
+  font-size: 0.9rem;
+}
+
+.App__error {
+  color: #b00020;
+}
+
+.App button {
+  margin-top: 0.75rem;
+  padding: 0.45rem 0.75rem;
+  cursor: pointer;
+}

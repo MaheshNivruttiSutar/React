@@ -1,0 +1,21 @@
+.App {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.UserCard {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.UserCard h2 {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+}
+
+.UserCard p {
+  margin: 0.2rem 0;
+}

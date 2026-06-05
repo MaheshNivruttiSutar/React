@@ -58,7 +58,7 @@
 // export { default } from './18-getByRole-query/App';
 
 // 19. Multiple elements with Role | Custom Role
-export { default } from './19-multiple-elements-with-role-custom-role/App';
+// export { default } from './19-multiple-elements-with-role-custom-role/App';
 
 // 20. getAllByRole
 // export { default } from './20-getAllByRole/App';
@@ -94,7 +94,7 @@ export { default } from './19-multiple-elements-with-role-custom-role/App';
 // export { default } from './30-rtl-query-priority-order/App';
 
 // 31. Assertion Methods
-// export { default } from './31-assertion-methods/App';
+export { default } from './31-assertion-methods/App';
 
 // 32. Text Match with String and Regex
 // export { default } from './32-text-match-string-regex/App';

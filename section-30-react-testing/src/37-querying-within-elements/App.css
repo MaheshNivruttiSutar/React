@@ -1,0 +1,22 @@
+.App {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.App section {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+
+.App h2 {
+  margin: 0 0 0.35rem;
+  font-size: 1rem;
+}
+
+.App ul {
+  margin: 0;
+  padding-left: 1.25rem;
+}

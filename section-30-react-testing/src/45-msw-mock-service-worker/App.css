@@ -1,0 +1,14 @@
+.App {
+  max-width: 420px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.App__list {
+  margin-top: 1rem;
+  padding-left: 1.25rem;
+}
+
+.App__error {
+  color: #b00020;
+}

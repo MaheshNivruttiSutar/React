@@ -1,0 +1,15 @@
+.App {
+  max-width: 360px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.App__post {
+  margin-bottom: 0.5rem;
+}
+
+.App button {
+  margin-top: 0.5rem;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+}

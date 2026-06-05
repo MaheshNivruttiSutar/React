@@ -1,0 +1,29 @@
+.App {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.App button {
+  margin: 0.75rem 0;
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+}
+
+.App__errors {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.App__error {
+  padding: 0.35rem;
+  margin-bottom: 0.25rem;
+  background: #ffe8e8;
+  border-radius: 4px;
+}
+
+.App__error--hidden,
+.App__draft--hidden {
+  display: none;
+}

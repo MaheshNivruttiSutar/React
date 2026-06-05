@@ -1,0 +1,16 @@
+.App {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.App nav {
+  display: flex;
+  gap: 1rem;
+  margin: 0.75rem 0;
+}
+
+.App button {
+  padding: 0.4rem 0.75rem;
+  cursor: pointer;
+}
