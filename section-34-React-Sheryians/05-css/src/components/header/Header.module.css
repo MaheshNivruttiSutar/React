@@ -1,0 +1,21 @@
+.header {
+    background-color: lightseagreen;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.btn {
+    background-color: yellow;
+    cursor: pointer;
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
+.logo {
+    text-decoration: underline;
+}

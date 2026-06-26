@@ -1,0 +1,31 @@
+.light {
+    background-color: #ffffff;
+    color: #111111;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.dark {
+    background-color: #1a1a1a;
+    color: #f5f5f5;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+.light button,
+.dark button {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.light button {
+    background-color: #111;
+    color: #f3ecec;
+}
+
+.dark button {
+    background-color: #f5f5f5;
+    color: #111;
+}
