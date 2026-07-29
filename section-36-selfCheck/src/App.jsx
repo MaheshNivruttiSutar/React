@@ -103,7 +103,7 @@
 // export { default } from './33-css-box-model-flexbox-grid/App';
 
 // 34. Async function that fetches from an API
-export { default } from './34-async-api-fetch/App';
+// export { default } from './34-async-api-fetch/App';
 
 // 35. map, filter, and reduce on arrays
 // export { default } from './35-map-filter-reduce/App';
@@ -112,5 +112,5 @@ export { default } from './34-async-api-fetch/App';
 // export { default } from './36-typed-interface-api-response/App';
 
 // 37. interface vs type
-// export { default } from './37-interface-vs-type/App';
+export { default } from './37-interface-vs-type/App';
 
